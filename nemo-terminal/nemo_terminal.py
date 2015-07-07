@@ -343,6 +343,8 @@ class NemoTerminal(object):
                 return False
 	elif wchan == "wait_woken":
 	    return False
+	elif wchan == "do_wait":
+	    return True
         else:
             return True
 
